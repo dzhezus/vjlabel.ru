@@ -48,7 +48,7 @@ work:
       category: category_1 category_4
       link: https://www.youtube.com/watch?v=QH2-TGUlwu4
       linkClass: popup-youtube
-      image: images/folio/thumbs/tina_reel.png
+      image: media/nyan.png
       icon: briefcase
   
     - title: 299 792 458 ms reel
