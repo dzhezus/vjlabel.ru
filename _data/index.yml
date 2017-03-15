@@ -1,0 +1,148 @@
+hero:
+  title: We are the <span>VJ LABEL</span>
+  subtitle: UNION OF INDEPENDENT VISUAL ARTISTS BASED IN RUSSIA, MOSCOW.
+
+menu:
+  about: About
+  skills: We can
+  work: Work
+  team: Team
+  contact: Contact
+  blog: Blog
+
+about:
+  title: Welcome
+  description: VJ LABEL is a collaboration of visual artists. <BR> VJ-ing is a visual art for realtime video performance. <BR> We do a lot of cool stuff, like,   making a promo video for partyes, interactive art, video art, music video for DJs, real time VJ-ing, mapping and more <BR>
+  link: View our work
+
+skills:
+  title: Our skills
+  slides:
+    - title: Video-mapping<br>3D projections
+      description: Is a direction in the audiovisual art, which is a 3D-projection on a physical object, given its geometry and location in space.
+      icon: eye
+      index: 0
+
+    - title: VJ-ing
+      description: Visualization is an important part of the design stage space, excellent dive element in music. Remember your feelings in the movie theatre, how much picture with music impact your mood. This is what we do, we create the mood.
+      icon: bomb
+      index: 1
+      class: act-ser
+
+    - title: Video-production
+      description: We love design and can develop for you the necessary decision
+      icon: rocket
+      index: 2
+
+work:
+  title: Work
+  categories:
+    all: all
+    reels: reels
+    vjing: vj-ing
+    video: video production
+
+  projects:
+    - title: 299 792 458 ms reel
+      subtitle:
+      category: category_1 category_4
+      link: https://vimeo.com/200508229
+      linkClass: popup-vimeo
+      image: images/folio/thumbs/tina_reel.png
+      icon: briefcase
+
+    - title: Dzhezus reel
+      subtitle:
+      category: category_1 category_4
+      link: https://vimeo.com/157551798
+      linkClass: popup-vimeo
+      image: images/folio/thumbs/G.png
+      icon: briefcase
+
+    - title: «ØТŦEПΣŁЪ»
+      subtitle: Promo video
+      category: category_3
+      link: https://www.youtube.com/watch?v=7cy9jRG0tx8
+      linkClass: popup-youtube
+      image: images/folio/thumbs/ot.png
+      icon: film
+
+    - title: SHERR YBROWN
+      subtitle: video-mix
+      category: category_3 category_4
+      link: https://vimeo.com/200515773
+      linkClass: popup-vimeo
+      image: images/folio/thumbs/sher.png
+      icon: film
+
+    - title: VJ BREAKPOINT FEAT BIOPSYHOZ
+      subtitle: visual show
+      category: category_3 category_4
+      link: https://vimeo.com/200510332
+      linkClass: popup-vimeo
+      image: images/folio/thumbs/bio.png
+      icon: camera
+
+    - title: VJLABEL SHOWCASE
+      subtitle: our family
+      category: category_1 category_2
+      link: https://vimeo.com/200513461
+      linkClass: popup-vimeo
+      image: images/folio/thumbs/sh.png
+      icon: briefcase
+
+order:
+  title: Ready to <span>order</span> your project?
+  link: Get in touch
+
+team:
+  title: Team
+  fellas:
+    - title: Tina Anderson <br> VJ 299 792 458 M/S<span></span>
+      position: CEO / Art Director
+      image: images/photos/1.jpg
+      description: "I am vj 299 792 458 m/s (Speed of light) Member of RAWARTIST (UK) <br> Playing with and Yu Kawabata (Jp) PETER SCHUMANN (DE) David K (Fr) Azari (Canada) Obraztsoff ZONDA, THE YOZ (Ru) MARK`S (system 108) K.KANDAUROV, RVBBT, ECHO, Радость Моя, Mugl, Summer of Haze, Dita Redrum <br> soft: Resolume, After Effects"
+      instagram: https://www.instagram.com/tinaanders0n/
+      vkontakte: https://vk.com/tina_anderson
+      facebook: https://www.facebook.com/TinaAnders0n
+
+    - title: VJ Breakpoint<span></span>
+      position: tech director
+      image: images/photos/2.jpg
+      description: "soft: Resolume, After Effects"
+      instagram: https://www.instagram.com/brokentoysarebest/
+      vkontakte: https://vk.com/w_a_r
+      facebook: https://www.facebook.com/TinaAnders0n
+
+    - title: alexander ryabtsun<BR>VJ dzhezus
+      position: motion designer
+      image: images/photos/3.jpg
+      description: "<br> soft: Touchdesigner, Resolume, After Effects"
+      instagram: https://www.instagram.com/VJDZHEZUS/
+      vkontakte: https://vk.com/dzhezus
+      facebook: https://www.facebook.com/dzhezus
+
+    - title: VJ suimin
+      position: videographer
+      image: images/photos/3.jpg
+      description: еще текст
+      instagram:
+      vkontakte:
+      facebook:
+
+contact:
+  title: Contact
+  subtitle: WE ARE OPEN FOR COLLABORATION. PLEASE CONTACT US
+  info: Contact Info
+  phone: +7 (906) 765-08-88
+  email: 1@vjlabel.ru
+  mindless: In your mind
+  namePlaceholder: Name
+  emailPlaceholder: Email
+  messagePlaceholder: Message
+
+footer:
+  facebook: https://fb.com/vjlabel
+  vkontakte: https://vk.com/vjlabel
+  vimeo: https://vimeo.com/vjlabel
+  copyright: "VJ Label ©2017. All rights reserved. | Design: Pompey"
