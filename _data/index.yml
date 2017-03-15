@@ -43,6 +43,15 @@ work:
     video: video production
 
   projects:
+  
+    - title: kitty
+      subtitle: mr. kitty
+      category: category_1 category_4
+      link: https://www.youtube.com/watch?v=QH2-TGUlwu4
+      linkClass: popup-youtube
+      image: media/nyan.png
+      icon: briefcase
+
     - title: nyan
       subtitle: mr. catz
       category: category_1 category_4
