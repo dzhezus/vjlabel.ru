@@ -15,6 +15,13 @@ function initPompey() {
 
 	var al = {queue:true,duration:800,easing:"easeInOutQuad"};
 
+	// development features
+	$('.aih').css('padding-bottom', 120)
+	if (window.location.href.indexOf('dev') != -1) {
+		$('#downloads').show()
+		$('.aih').attr('style', '')
+	}
+
 // call mobile menu ------------------
 
 	$(".nav-button").bind('click', function() {

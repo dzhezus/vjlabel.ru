@@ -87,6 +87,7 @@ layout: default
             <li class="current"><a href="#about" class="scroll-link">{{ site.data.index.menu.about }}</a></li>
             <li><a href="#services" class="scroll-link">{{ site.data.index.menu.skills }}</a></li>
             <li><a href="#portfolio" class="scroll-link">{{ site.data.index.menu.work }}</a></li>
+            <li><a href="#downloads" class="scroll-link">{{ site.data.index.menu.downloads }}</a></li>
             <li><a href="#team" class="scroll-link">{{ site.data.index.menu.team }}</a></li>
             <li><a href="#contacts" class="scroll-link">{{ site.data.index.menu.contact }}</a></li>
             <li><a href="blog.html">{{ site.data.index.menu.blog }}</a></li>
@@ -214,6 +215,44 @@ layout: default
                       <div class="folio-icon"><i class="fa fa-{{ project.icon }}"></i></div>
                         <h4>{{ project.title }}</h4>
                         <h6>{{ project.subtitle }}</h6>
+                    </div>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </div><!--=============== section portfolio end ===============-->
+
+  <!--=============== section downloads ===============-->
+
+    <div id="downloads" class="sections" style="display: none">
+
+      <div class="content">
+
+        <div class="container">
+
+          <h3 class="title" style="color:#fff">{{ site.data.index.downloads.title }}</h3>
+          <div class="small-separator"></div>
+
+          <!-- Downloads links -->
+
+          <div class="aih">
+          <div id="scroll-el"></div>
+
+            <ul id="folio_container">
+              {% for item in site.data.index.downloads.items %}
+                <li class="box grid-2 mix {{ item.category }} mix_all">
+                  <a href="{{ item.link }}" target="_blank" class="transition {{ item.linkClass }}">
+                    <img src="{{ item.image }}" class="respimg">
+                    <span class="folio-overlay"></span>
+                    <div class="folio-name clear">
+                      <div class="folio-icon"><i class="fa fa-{{ item.icon }}"></i></div>
+                        <h4>{{ item.title }}</h4>
+                        <h6>{{ item.subtitle }}</h6>
                     </div>
                   </a>
                 </li>

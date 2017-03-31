@@ -76,7 +76,7 @@ h3 {
 h4 {
 	font-size: 0.9em;
 	text-transform: uppercase;
-	font-weight: 200;	
+	font-weight: 200;
 }
 h5 {
 	font-size: 0.8em;
@@ -94,7 +94,7 @@ h6 {
 	font-weight: 800;
 	letter-spacing: .0015em;
 	text-transform: uppercase;
-	text-align: center;	
+	text-align: center;
 	padding-top:50px;
 }
 /* =====
@@ -133,16 +133,16 @@ Content Styles
 	opacity:0;
 	height:100%;
 }
-.wrapper{ 
-	height:100%; 
+.wrapper{
+	height:100%;
 	margin-left:0;
-	vertical-align:top; 
-	position: absolute; 
-	left:0; 
-	top:0; 
+	vertical-align:top;
+	position: absolute;
+	left:0;
+	top:0;
 	right:0;
 	z-index:2;
-	height:100%;  
+	height:100%;
 }
 .container{
 	max-width: 1200px;
@@ -163,7 +163,7 @@ Content Styles
 }
 .container p.white, .white, #clientsay p{
 	color:#fff !important;
-	opacity:1 !important;  
+	opacity:1 !important;
 }
 
 .small-separator{
@@ -194,7 +194,7 @@ Content Styles
 	background:#fff;
 }
 ::selection {
-	background: #ccc; 
+	background: #ccc;
 	color:#fff;
 }
 ::-moz-selection {
@@ -261,8 +261,8 @@ Color-styles
 .post-body a{
 	color: #A0C6C7!important;
 }
-.comment-body{ 
-	border-top: 2px solid #A0C6C7; 
+.comment-body{
+	border-top: 2px solid #A0C6C7;
 }
 
 /* ====================
@@ -452,7 +452,7 @@ Services
 	line-height: 30px;
 	font-weight: 800;
 	letter-spacing: .0015em;
-	text-align: center;	
+	text-align: center;
 	padding-top:20px;
 	width:100%;
 }
@@ -465,12 +465,19 @@ Services
 }
 
 /* ====================
-Portfolio
+Portfolio and Downloads
 --------------------------------------------------------------*/
 
-#portfolio .content{
+#portfolio .content,
+#downloads .content{
 	padding:90px 0;
 	background:#292929;
+}
+#portfolio .content {
+	padding-bottom: 0;
+}
+#portfolio .aih {
+	padding-bottom: 0;
 }
 #folio_container{
 	position:relative;
@@ -483,7 +490,7 @@ Portfolio
 	float:left;
 	padding:20px 0 90px;
 }
-#folio_container .mix { 
+#folio_container .mix {
 	opacity: 0;
 	display: none;
 }
@@ -492,7 +499,7 @@ Portfolio
 	text-align:center;
 	position:relative;
 	z-index:12;
-	padding:2px 0; 
+	padding:2px 0;
 }
 #options ul {
 	position:relative;
@@ -506,13 +513,13 @@ Portfolio
     font-size: 18px;
 	text-transform:lowercase;
 	padding:6px 10px;
-	cursor:pointer;	
+	cursor:pointer;
 	position:relative;
 }
 .box {
 	padding: 0;
 	text-align:center;
-	margin: 1.315151515152%;	
+	margin: 1.315151515152%;
 }
 .box  a{
 	float:left;
@@ -543,7 +550,7 @@ Portfolio
 	float:left;
 	position: relative;
 	width: 100%;
-	padding:50px 0;	
+	padding:50px 0;
 }
 .box  a div.folio-icon{
 	position:absolute;
@@ -678,7 +685,7 @@ ajax content
 	margin-top:10px;
 	margin-left:10px;
 	font-family: "Times New Roman", Times, serif; font-style: italic;
-	font-size: 15px;	
+	font-size: 15px;
 }
 #ajaxpage  a.lanch-project i {
 	margin-left:8px;
@@ -721,7 +728,7 @@ Subcribe
 .subcribe{
 	margin:60px auto;
 	position:relative;
-	max-width:450px;	
+	max-width:450px;
 }
 .subcribe h3{
    	font-family: "Times New Roman", Times, serif; font-style: italic;
@@ -884,7 +891,7 @@ Order
 	font-weight:300;
 	font-size:2.3em;
 	margin-bottom:40px;
-	text-transform:none;	
+	text-transform:none;
 }
 #order:after {
 	bottom: 100%;
@@ -985,21 +992,21 @@ Contact form
 	color:#fff;
 	-webkit-font-smoothing: antialiased;
 }
-::-webkit-input-placeholder { 
-    color: #fff; text-overflow: ellipsis; 
+::-webkit-input-placeholder {
+    color: #fff; text-overflow: ellipsis;
 	text-transform: uppercase;
 }
-:-moz-placeholder { 
-    color: #fff !important; text-overflow: ellipsis; 
-	text-transform: uppercase;
-}
-::-moz-placeholder { 
-    color: #fff !important; text-overflow: ellipsis; 
-	text-transform: uppercase;
-} 
-:-ms-input-placeholder { 
+:-moz-placeholder {
     color: #fff !important; text-overflow: ellipsis;
-	text-transform: uppercase; 
+	text-transform: uppercase;
+}
+::-moz-placeholder {
+    color: #fff !important; text-overflow: ellipsis;
+	text-transform: uppercase;
+}
+:-ms-input-placeholder {
+    color: #fff !important; text-overflow: ellipsis;
+	text-transform: uppercase;
 }
 .right{
 	float:right !important
@@ -1042,12 +1049,12 @@ Contact form
 	position:relative;
 	border-radius:4px;
 }
-.error{		
+.error{
 	color:red;
 }
 
 /* ====================
-Footer 
+Footer
 --------------------------------------------------------------*/
 
 #footer .content{
@@ -1068,7 +1075,7 @@ Footer
 }
 .social-list ul li {
 	margin-left:4px;
-	display:inline-block;	
+	display:inline-block;
 }
 .social-list ul li a{
 	float:left;
@@ -1097,7 +1104,7 @@ Footer
 }
 
 /* ====================
-Single page 
+Single page
 --------------------------------------------------------------*/
 
 #single-page-head{
@@ -1105,7 +1112,7 @@ Single page
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
-	color:#fff;	
+	color:#fff;
 }
 #single-page-head .content{
 	padding:190px 0;
@@ -1173,7 +1180,7 @@ Single page
 }
 .portfolio-nav , .blog-pagination{
 	text-align: center;
-	position:relative;	
+	position:relative;
 	-webkit-backface-visibility: hidden;
 	float:left;
 	width: 100%;
@@ -1190,7 +1197,7 @@ Single page
 	-webkit-backface-visibility: hidden;
 	margin-left:10px;
 	color:#666;
-	opacity:0.8;	
+	opacity:0.8;
 }
 .portfolio-nav a:hover{
 	opacity:1;
@@ -1198,7 +1205,7 @@ Single page
 
 /*-- Blog --*/
 
-.post { 
+.post {
 	position:relative;
 	text-align:left;
 	margin-top:50px;
@@ -1295,9 +1302,9 @@ Single page
 	margin-bottom: 15px;
 	border-bottom: 1px solid #e9e9e9;
 }
-.cat-item a, .recentcomments a { 
-	color: #060606!important; 
-	font-weight: 400; 
+.cat-item a, .recentcomments a {
+	color: #060606!important;
+	font-weight: 400;
 }
 .tagcloud a {
 	display: inline-block;
@@ -1312,7 +1319,7 @@ Single page
 	color:#666;
 }
 .widget-archive a, .widget-recent-entries a {
-	color: #060606!important; 
+	color: #060606!important;
 	font-weight: 400;
 	font-size: 0.8666666666667em;
 	display: block;
@@ -1385,8 +1392,8 @@ Single page
 	border-width: 36px;
 	margin-left: 16px;
 }
-#comments{ 
-	text-align:left; 
+#comments{
+	text-align:left;
 	padding-top: 50px;
 }
 #comments p {
@@ -1395,29 +1402,29 @@ Single page
 	font-size:0.9em !important;
 	color:#fff;
 }
-.comment{ 
-	float: left; 
+.comment{
+	float: left;
 }
-.comment-body{ 
-	position: relative; 
-	margin-left: 70px; 
-	padding-top: 30px; 
+.comment-body{
+	position: relative;
+	margin-left: 70px;
+	padding-top: 30px;
 }
-.comment-author{ 
-	position: absolute; 
-	top: 50px; 
+.comment-author{
+	position: absolute;
+	top: 50px;
 	left: -70px;
 }
-.comment-author img{ 
+.comment-author img{
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 }
-.comment .children{ 
-	margin-left: 70px; 
+.comment .children{
+	margin-left: 70px;
 }
 #comments h4 a{
-	display: block; 
+	display: block;
 	margin-bottom: 10px;
 }
 .comment-meta, .comment-meta a{
@@ -1437,19 +1444,19 @@ Single page
 	font-family: "Times New Roman", Times, serif; font-style: italic;
 	text-transform:none;
 }
-.comment-reply-form{ 
-	border-top: 2px solid #fff; 
+.comment-reply-form{
+	border-top: 2px solid #fff;
 }
-.control-group label, .control-group .controls{ 
-	display: inline-block; 
+.control-group label, .control-group .controls{
+	display: inline-block;
 }
-.control-group label{ 
-	margin-left: 10px; 
+.control-group label{
+	margin-left: 10px;
 	font-weight: 200;
 	font-size:14px;
 	font-family: "Times New Roman", Times, serif; font-style: italic;
 }
-.control-group .controls input { 
+.control-group .controls input {
 	margin-top: 15px;
 	border: none;
 	outline: none;
@@ -1490,12 +1497,12 @@ Single page
 
 
 /* ====================
-Media 
+Media
 --------------------------------------------------------------*/
 
 
 /* ====================
-Tablet / netbooks 
+Tablet / netbooks
 --------------------------------------------------------------*/
 @media only screen and  (max-width: 959px) {
 
@@ -1558,11 +1565,11 @@ h2{
 }
 
 /* ====================
-Tablet 
+Tablet
 --------------------------------------------------------------*/
 
 @media only screen and  (max-width: 740px) {
-		
+
 #jpreLoader{
 	width:250px;
 }
@@ -1571,10 +1578,10 @@ Tablet
 	border:none !important;
 	margin:20px 0;
 	clear:both;
-}	
+}
 .contact-details span, .contact-details a {
 	margin:20px 0;
-}	
+}
 .box{
     width: 46.969696969697% !important;
     margin:  1.515151515152% !important;
@@ -1597,7 +1604,7 @@ Tablet
 
 }
 /* ====================
-Smartphone / small tablet 
+Smartphone / small tablet
 --------------------------------------------------------------*/
 
 @media only screen and  (max-width: 540px) {
@@ -1627,13 +1634,13 @@ Smartphone / small tablet
 }
 
 /* ====================
-Retina 
+Retina
 --------------------------------------------------------------*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-	
+
 .container p ,#contact_form label , .contact-details span, .footer p{
 	font-size:1.1em;
-	font-weight:400;	
+	font-weight:400;
 }
 .slides-big-img , #ticker-bg , #testimonials, #contacts, #single-page-head , .mob-video{
 	background-attachment:scroll !important;

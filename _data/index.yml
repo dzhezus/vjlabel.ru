@@ -6,6 +6,7 @@ menu:
   about: About
   skills: We can
   work: Work
+  downloads: Downloads
   team: Team
   contact: Contact
   blog: Blog
@@ -129,6 +130,16 @@ team:
       instagram:
       vkontakte:
       facebook:
+downloads:
+  title: Downloads
+  items:
+    - title: Footage of your dream
+      subtitle: Subtitle for footage
+      category:
+      link: https://vimeo.com/200508229
+      linkClass: external-link
+      image: images/folio/thumbs/tina_reel.png
+      icon: film
 
 contact:
   title: Contact
